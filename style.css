@@ -1,0 +1,107 @@
+canvas{
+    image-rendering: pixelated;
+    margin-left: 20px;
+}
+
+header{
+    border-bottom:1px black solid;
+}
+div{
+    display: flex;
+    margin-top: 40px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 30vh;
+}
+
+.picture1{
+    display: none;
+}
+.picture2{
+    display: none;
+}
+
+.section-1{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+    width: 40%;
+    height: 30vh;
+}
+
+.section-2{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+    width: 40%;
+    height: 30vh;
+    margin-top: 30px;
+}
+
+.section-1 ul {
+    margin-left: -29px;
+}
+
+.section-2 ul {
+    margin-left: -29px;
+}
+
+li{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+    padding-left: 30px;
+    margin-top: 28px;
+    padding-top: 3px;
+
+}
+li:hover{
+    cursor: pointer;
+    color: olivedrab;
+}
+
+.section-1 ul li:nth-child(1){
+    list-style:none;
+    background: url('data/bucket.png') left center no-repeat;
+}
+
+.section-1 ul li:nth-child(2){
+    list-style:none;
+    background: url('data/pipetka.png') left center no-repeat;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.12);
+}
+
+.section-1 ul li:nth-child(3){
+    list-style:none;
+    background: url('data/move.png') left center no-repeat;
+}
+
+.section-1 ul li:nth-child(4){
+    list-style:none;
+    background: url('data/transform.png') left center no-repeat;
+}
+
+.section-2 ul li:nth-child(1){
+    list-style:none;
+    background: url('data/ellipse.png') left center no-repeat;
+}
+
+.section-2 ul li:nth-child(2){
+    list-style:none;
+    background: url('data/ellipse_gr.png') left center no-repeat;
+}
+
+.section-2 ul li:nth-child(3){
+    list-style:none;
+    background: url('data/ellipser.png') left center no-repeat;
+}
+
+.section-2 ul li:nth-child(4){
+    list-style:none;
+    background: url('data/ellipse_blue.png') left center no-repeat;
+}
